@@ -1,5 +1,5 @@
 /** Author: MKT VIRTUAL
-* Version: 1.0 - Licensed under the MIT License **/
+* Version: 1.0 **/
 var language;
 var avon={
      avonBar:function(){
