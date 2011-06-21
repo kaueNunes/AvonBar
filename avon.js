@@ -47,7 +47,7 @@ var avon={
           language:function(g,v){
                arr=new Array();var a,f,d,c,b;switch(g){
                     case"pt":
-                    a="<a href='http://www.br.avon.com/' class='avon_icon' target='blank'><img src='"+v+"/images_bar/avon.gif' alt='Avon'/></a>";
+                    a="<a href='http://www.br.avon.com/' class='avon_icon' target='_blank'><img src='"+v+"/images_bar/avon.gif' alt='Avon'/></a>";
                     arr.push({title_intro:a});
                     break;
                }
@@ -84,7 +84,7 @@ var avon={
                     var m=document.createElement("div");
                     f.setAttribute("id","left_avon");
                     m.setAttribute("id","right_avon");
-                    m.innerHTML='<a href="http://www.br.avon.com/" class="avon_icon" target="blank"><img src="'+v+'/images_bar/nossos_sites.gif" alt="Nossos Sites" /></a><a href="http://www.folhetoavon.com.br/" class="avon_icon" target="blank"><img src="'+v+'/images_bar/folheto_virtual.gif" alt="Folheto Virtual" /></a><a href="http://www.br.avon.com/PRSuite/revender_avon.page" class="avon_icon" target="blank"><img src="'+v+'/images_bar/revender.gif" alt="Revender" /></a><a href="http://www.br.avon.com/PRSuite/contact_us_main.page?CURR_URL=contact_us_main.page" class="avon_icon" target="blank"><img src="'+v+'/images_bar/fale_conosco.gif" alt="Fale Conosco" /></a>';
+                    m.innerHTML='<a href="http://www.br.avon.com/" class="avon_icon" target="_blank"><img src="'+v+'/images_bar/nossos_sites.gif" alt="Nossos Sites" /></a><a href="http://www.folhetoavon.com.br/" class="avon_icon" target="_blank"><img src="'+v+'/images_bar/folheto_virtual.gif" alt="Folheto Virtual" /></a><a href="http://www.br.avon.com/PRSuite/revender_avon.page" class="avon_icon" target="_blank"><img src="'+v+'/images_bar/revender.gif" alt="Revender" /></a><a href="http://www.br.avon.com/PRSuite/contact_us_main.page?CURR_URL=contact_us_main.page" class="avon_icon" target="_blank"><img src="'+v+'/images_bar/fale_conosco.gif" alt="Fale Conosco" /></a>';
                     r.appendChild(m);
                     r.appendChild(f);
                     var h=m.getElementsByTagName("a");
