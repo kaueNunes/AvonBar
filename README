@@ -1,12 +1,12 @@
     /**
 	* Author: MKT VIRTUAL
 	* Email: mktvirtual@mktvirtual.com.br
-	* URL: http://github.com/mktvirtual/avonbar
+	* URL: https://github.com/mktvirtual/AvonBar
 	* Version: 1.0
 	* Compatible with (IE6, IE7, Firefox < 3.6, Chrome, Safari 3)
 	**/
 
-*include js -> http://github.com/mktvirtual/avonbar/avon.js (size: 5 kb)
+*include js -> https://github.com/mktvirtual/AvonBar/blob/master/avon.js (size: 5 kb)
 
 *call init function
 	avon.init(bgColor, lg, img, css);
@@ -25,7 +25,7 @@
 	</head>
 	<body>
 		<div class="exemple">
-			<script type="text/javascript" src="http://github.com/mktvirtual/avonbar/avon.js"></script>
+			<script type="text/javascript" src="https://github.com/mktvirtual/AvonBar/blob/master/avon.js"></script>
 			<script type="text/javascript" charset="utf-8">avon.init('#000000', 'pt', 'http://github.com/mktvirtual/img', 'http://github.com/mktvirtual/css');</script>			
 		</div>
 	</body>
