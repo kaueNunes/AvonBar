@@ -26,7 +26,7 @@
 	<body>
 		<div class="exemple">
 			<script type="text/javascript" src="https://github.com/mktvirtual/AvonBar/blob/master/avon.js"></script>
-			<script type="text/javascript" charset="utf-8">avon.init('#000000', 'pt', 'http://github.com/mktvirtual/img', 'http://github.com/mktvirtual/css');</script>			
+			<script type="text/javascript" charset="utf-8">avon.init('#000000', 'pt', 'https://github.com/mktvirtual/AvonBar/tree/master', 'https://github.com/mktvirtual/AvonBar/tree/master');</script>			
 		</div>
 	</body>
 </html>
