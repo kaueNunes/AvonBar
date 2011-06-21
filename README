@@ -1,0 +1,34 @@
+    /**
+	* Author: MKT VIRTUAL
+	* Email: mktvirtual@mktvirtual.com.br
+	* URL: http://github.com/mktvirtual/avonbar
+	* Version: 1.0
+	* Compatible with (IE6, IE7, Firefox < 3.6, Chrome, Safari 3)
+	**/	
+
+*include js -> http://github.com/mktvirtual/avonbar/avon.js (size: 5 kb)
+
+*call init function
+	avon.init(bgColor, lg, img, css);
+
+*img = path to your images (ex.: http://www.avonmaquiagem.com.br/images) / put the folder "images_bar" in this path
+
+*css = path to your css (ex.: http://www.avonmaquiagem.com.br/css) / put the folder "css_bar" in this path
+
+*where color = hexadecimal string - use #000000
+
+*lg = language(string) where:
+				*'pt' = portugues only
+<html>
+	<head>
+		<title>Title of the document</title>
+	</head>
+	<body>
+		<div class="exemple">
+			<script type="text/javascript" src="http://github.com/mktvirtual/avonbar/avon.js"></script>
+			<script type="text/javascript" charset="utf-8">avon.init('#000000', 'pt', 'http://github.com/mktvirtual/img', 'http://github.com/mktvirtual/css');</script>			
+		</div>
+	</body>
+</html>
+
+
