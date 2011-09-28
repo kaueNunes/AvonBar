@@ -53,7 +53,15 @@ var avon={
                }
                return arr
           },
-          init:function(d,j,v,x){
+		  insertElement : function(parentID,child){
+				if (parentID) {
+					parent=document.getElementById(parentID);
+			        parent.insertBefore(child,parent.childNodes[0]);
+				}else{
+					document.body.prependChild(child);
+				};
+		  },
+          init:function(d,j,v,x,e){
                var g=this.language(j,v);
                language=j;
                var c=document.getElementsByTagName("head")[0];
@@ -69,10 +77,12 @@ var avon={
                     };
                     var u=document.createElement("div");
                     u.setAttribute("id","border");
-                    document.body.prependChild(u);
+					avon.insertElement(e,u);
+                    //document.body.prependChild(u);
                     var q=document.createElement("div");
                     q.setAttribute("id","avon");
-                    document.body.prependChild(q);
+					avon.insertElement(e,q);
+                    //document.body.prependChild(q);
                     q.style.backgroundColor=d;
                     var r=document.createElement("div");
                     r.setAttribute("id","avon_owner");
