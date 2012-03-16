@@ -13,13 +13,13 @@ Download
 ===
 
 	Baixe a última versão https://github.com/mktvirtual/AvonBar/zipball/master
-	Include o arquivo avonbar.min.js (compressed) ou avonbar.js (uncompressed) no footer antes de fechar a tag body
+	Include o arquivo src/js/avonbar.min.js (compressed) ou src/js/avonbar.js (uncompressed) no footer antes de fechar a tag body
 	
 Inicialize a barra
 ===
 
 		Exemplo: 
-		*	avon.init(http://www.dominio/diretório_do_css); 
+		*	avon.init(http://www.dominio/avonbar/src/css); 
 	
 Diretório do CSS (parâmetro)
 ===
