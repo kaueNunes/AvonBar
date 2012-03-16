@@ -1,7 +1,7 @@
 Avon Bar
 ===
 
-Esta é a barra de topo padrão para sites Avon Brasil. Os arquivos devem ser baixados para o servidor do site a ser utilizado e includado conforme instruções do README
+Esta é a barra de topo padrão para sites Avon Brasil. Os arquivos devem ser baixados para o servidor do site a ser utilizado e includado conforme instruções do abaixo:
 ===
 
 * Autor: Mkt Virtual
