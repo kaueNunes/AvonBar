@@ -12,17 +12,17 @@ Esta é a barra de topo padrão para sites Avon Brasil. Os arquivos devem ser ba
 Download
 ===
 
-	*	Baixe a última versão <a href="https://github.com/mktvirtual/AvonBar/zipball/master">clicando aqui</a> ou visite a página no github: <a href="https://github.com/mktvirtual/AvonBar">https://github.com/mktvirtual/AvonBar</a>
-	*	Include o arquivo avonbar.js no footer antes de fechar a tag body
+	Baixe a última versão https://github.com/mktvirtual/AvonBar/zipball/master
+	Include o arquivo avonbar.min.js (compressed) ou avonbar.js (uncompressed) no footer antes de fechar a tag body
 	
 Inicialize a barra
 ===
 
-avon.init(cssPath);
-	*	Exemplo: http://www.dominio/diretório_do_css
+		Exemplo: 
+		*	avon.init(http://www.dominio/diretório_do_css); 
 	
-Diretório do CSS
+Diretório do CSS (parâmetro)
 ===
 		
-	*	avon.init(cssPath);
-	*	Parâmetro URL, ex: 'http://www.dominio/diretório_do_css'. <br /> Se omitir esse valor ele pegará o padrão, no CDN
+		O parâmetro pode ser omitido, por padrão a barra buscará o css no CDN.
+		*	avon.init();
