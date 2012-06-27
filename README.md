@@ -13,7 +13,7 @@ Download
 ===
 
 	Baixe a última versão https://github.com/mktvirtual/AvonBar/zipball/master
-	Include o arquivo src/js/avonbar.min.js (compressed) ou src/js/avonbar.js (uncompressed) no footer antes de fechar a tag body
+	Include o arquivo src/js/avonbar.js no footer antes de fechar a tag body
 	
 Inicialize a barra
 ===
