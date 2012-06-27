@@ -1,0 +1,24 @@
+<p><strong>Autor:</strong> Mkt Virtual</p>
+<p><strong>Email:</strong> mauricio@mktvirtual.com.br</p>
+<p><strong>URL:</strong> https://github.com/mktvirtual/AvonBar</p>
+<p><strong>Versão:</strong> 3.0</p>
+<p><strong>Compatibilidade:</strong> (IE6, IE7, Firefox > 3.6, Chrome 17+, Safari 5+, Safari IOS)</p>
+
+<h3>Esta é a barra de topo padrão para sites Avon Brasil. Os arquivos devem ser baixados para o servidor do site a ser utilizado e includado conforme instruções do README</h3>
+<article>
+	<header>
+		<h1>Download</h1>
+		<p>Baixe a última versão <a href="https://github.com/mktvirtual/AvonBar/zipball/master">clicando aqui</a> ou visite a página no github: <a href="https://github.com/mktvirtual/AvonBar">https://github.com/mktvirtual/AvonBar</a>.</p>
+		<p>Include o arquivo avonbar.js no footer antes de fechar a tag body</p>
+	</header>
+	<section>
+		<h2>Inicialize a barra</h2>
+		<p>avon.init(cssPath);</p>
+		<cite>Exemplo: http://www.dominio/diretório_do_css</cite>
+	</section>
+	<section>
+		<h2>Diretório do CSS</h2>
+		<p>avon.init(cssPath);</p>
+		<p><cite>Parâmetro URL, ex: 'http://www.dominio/diretório_do_css'. <br /> Se omitir esse valor ele pegará o padrão, no CDN</cite></p>
+	</section>
+</article>
