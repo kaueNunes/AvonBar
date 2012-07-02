@@ -3,13 +3,13 @@
 var language;
 var avon={
         init:function(d,j,v,pathCss){
-			if (!j && !v && !pathCss) {
-				if (!d){
-					pathCss = 'http://c624840.r40.cf2.rackcdn.com/versao3/src';
-				}else{
-					pathCss = d;
-				} 
-			};
+                  if (!j && !v && !pathCss) {
+                        if (!d){
+                              pathCss = 'http://c624840.r40.cf2.rackcdn.com/versao3/src';
+                        }else{
+                              pathCss = d;
+                        } 
+                  };
              var c=document.getElementsByTagName("head")[0];
              var b=document.createElement("link");
              b.type="text/css";
@@ -47,9 +47,13 @@ var avon={
                   k.innerHTML= "<a href='http://www.avonmaquiagem.com.br/simulador/' class='sprite simulador' target='_blank' rel='external'></a>";
                   
                   var l=document.createElement("div");
-                  l.setAttribute("id","left_avon_face");
-                  l.innerHTML= "<iframe src='//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.br.avon.com%2FPRSuite%2Fhome_page.page&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=235365763148251' scrolling='no' frameborder='0' style='border:none; overflow:hidden; width:100px; height:21px;' allowTransparency='true'></iframe>";
-
+                  if (navigator.appVersion.indexOf("MSIE 7.") != -1){
+                        l.setAttribute("id","left_avon_face_ie");
+                        l.innerHTML= "<iframe src='http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.br.avon.com%2FPRSuite%2Fhome_page.page&amp;send=false&amp;layout=standard&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=35&amp;appId=235365763148251' scrolling='no' frameborder='0' style='border:none; overflow:hidden; width:100px; height:35px;' allowTransparency='true'></iframe>";
+                  }else{
+                        l.setAttribute("id","left_avon_face");
+                        l.innerHTML= "<iframe src='http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.br.avon.com%2FPRSuite%2Fhome_page.page&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=235365763148251' scrolling='no' frameborder='0' style='border:none; overflow:hidden; width:100px; height:21px;' allowTransparency='true'></iframe>";
+                  }
                   var y=document.createElement("div");
                   y.setAttribute("id","left_avon_itens");
                   y.innerHTML= "<a href='http://twitter.com/#!/avonbr/' class='twitter' target='_blank' rel='external'></a>";

@@ -9,6 +9,7 @@
 #avonbar #left_avon{float:left;width:778px}
 #avonbar #left_avon_itens{float:left; margin-left: 9px;}
 #avonbar #left_avon_face{float:left; margin-left: 9px; margin-top:7px;}
+#avonbar #left_avon_face_ie{float:left; margin-left: 9px; margin-top:7px; width:60px !important; overflow: hidden;}
 #avonbar .nossos_sites{background-position:0 -31px;width:83px}
 #avonbar .folheto_virtual{background-position:-93px -31px;width:103px}
 #avonbar .revender{background-position:-206px -31px;width:72px}
